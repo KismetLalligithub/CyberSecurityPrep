@@ -1,0 +1,19 @@
+4 -> read
+2 -> write
+1 -> execute
+
+chmod 755 script.sh, owner can read write execute
+Group can only read and execute not write hence the 5
+
+same for others.
+
+4 -> read
+2 -> write
+1 -> execute
+
+chmod 755 script.sh 
+owwner can read wrwite execute
+group can only read and execute
+also the others can do the same as the group
+
+you can customize the command to your liking.
